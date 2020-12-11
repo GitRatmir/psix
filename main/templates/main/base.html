@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Education</title>
+    <title>{% block title %}{% endblock %}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,7 +41,7 @@
                                     <p><span>Проект сделан  by Климов Ратмир 201.2 ФНЯ и Сарженко Артем 202.2 ФНЯ</span> <span>rklimow409@gmail.com</span></p>
                                 </div>
                                 <div class="text_wrap">
-                                    <p><a href="#"> <i class="ti-user"></i>  Login</a> <a href="#">Register</a></p>
+                                    <p><a href="#"> <i class="ti-user"></i>  Войти</a> <a href="#">Регистрация</a></p>
                                 </div>
                             </div>
                         </div>
@@ -64,29 +64,23 @@
                                     <div class="main-menu  d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a  href="index.html">home</a></li>
-                                                <li><a href="Courses.html">Courses</a></li>
-                                                <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <li><a  href="index.html">Главная страница</a></li>
+                                                <li><a href="Courses.html">Наши курсы</a></li>
+
+                                                <li><a href="#">Разделы <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
-                                                        <li><a href="blog.html">blog</a></li>
-                                                        <li><a href="single-blog.html">single-blog</a></li>
+                                                        <li><a href="Event.html">Мероприятия</a></li>
+                                                        <li><a href="event_details.html">Детали мероприятия</a></li>
+                                                        <li><a href="Admissions.html">Записаться</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="Event.html">Event</a></li>
-                                                        <li><a href="event_details.html">Event Details</a></li>
-                                                        <li><a href="Admissions.html">Admissions</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact.html">Наши контакты</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <div class="Appointment">
                                         <div class="book_btn d-none d-lg-block">
-                                            <a data-scroll-nav='1' href="#">Apply NOw</a>
+                                            <a data-scroll-nav='1' href="#">Записаться</a>
                                         </div>
                                     </div>
                                 </div>
